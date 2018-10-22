@@ -1,0 +1,24 @@
+{
+  "name": "redis-connector",
+  "version": "0.0.1",
+  "description": "Create redis client abd keep them by key.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ty000/redis-connector.git"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "ty000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ty000/redis-connector/issues"
+  },
+  "homepage": "https://github.com/ty000/redis-connector#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "redis": "^2.8.0",
+    "redis-commands": "^1.4.0"
+  }
+}
