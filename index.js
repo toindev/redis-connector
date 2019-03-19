@@ -14,7 +14,7 @@ function getClient(clientName = 'base', { onError = noop, promisify = false } = 
 }
 
 function initRedisClient(promisify, onError) {
-  const client = redis.createClient();
+  const client = redis.createClient('redis://redis:6379');
   client.on('error', onError);
   if (promisify)
     return decorateClient(client);
